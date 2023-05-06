@@ -16,6 +16,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/skoch9/meshplot/",
     packages=setuptools.find_packages(),
+    install_requires=['matplotlib', 'numpy', 'jupyter', 'pythreejs', 'ipywidgets'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
